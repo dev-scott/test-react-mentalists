@@ -1,0 +1,111 @@
+.main_container {
+  position: relative;
+}
+
+.card_container {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  position: relative;
+  margin-left: 100px;
+}
+
+.card_container2 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  margin-top: 40px;
+  right: 50px;
+  transform: rotate(-5deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+
+.card_header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_header h1 {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card_header span {
+  color: white;
+}
+
+.badge1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+.badge2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+.badge3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+.badge3 h1 {
+  font-size: 20px;
+  color: white;
+}
+
+.button_container {
+  position: relative;
+  top: 100px;
+  left: 0;
+  width: 500px;
+  margin-right: 10px;
+
+  height: 200px;
+
+  /* background-color: blue; */
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.button {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: none;
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+
+  background-color: transparent;
+  border-radius: 20px;
+  transition: 0.5s ease;
+}
+.button:hover {
+  color: white;
+  background-color: black;
+}
